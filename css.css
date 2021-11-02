@@ -1,0 +1,13 @@
+body {
+    background-color: lime;
+}
+.title {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 300%;
+}
+.div1 {
+    border-color: black;
+    border-style: solid;
+    border-width: 4px;
+}
