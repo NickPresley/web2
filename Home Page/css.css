@@ -1,0 +1,17 @@
+body {
+	background-color: aqua;
+}
+.TextBox {
+	font-size: 24px;
+}
+.button {
+	background-color: #32CD32;
+	color: white;
+	font-family: sans-serif;
+	font-size: 24px;
+	border-color: black;
+	transition-duration: 0.5s;
+}
+.button:hover {
+	background-color: blue;
+}
