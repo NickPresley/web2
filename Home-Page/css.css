@@ -1,17 +1,9 @@
 body {
 	background-color: rgb(40, 40, 40);
 }
-.loginbox {
-  margin-top: 10%;
+.table1 {
+  color: white;
 }
-.textbox {
-  margin-left: 20%; 
-  font-size: 22px;
-  margin-top: 1%
+table, th, td {
+  border: 1px solid white;
 }
-.lgnbtn {
-  margin-left: 20%;
-  font-size: 22px;
-  width: 328px;
-  margin-top: 2%
-}	
