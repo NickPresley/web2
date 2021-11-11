@@ -1,7 +1,11 @@
 function enterName() {
-    xnm = document.getElementById("name_").innerText;
-    xnu = document.getElementById("num_").innerText;
-    xps = document.getElementById("pass_").innerText;
+    document.getElementById("ctr-").id.valueOf = document.getElementById("ctr-").id.valueOf + "1"
+    document.getElementById("ctr-").id = document.getElementById("ctr1").id + "1"
+    document.getElementById("ctr-").id = document.getElementById("ctr2").id + "1"
+    document.getElementById("ctr-").id = document.getElementById("ctr3").id + "1"
+    xnm = document.getElementById("name_").value;
+    xnu = document.getElementById("num_").value;
+    xps = document.getElementById("pass_").value;
     ctr = document.createElement("tr");
     ctr.id = "ctr-";
     document.getElementById("table").appendChild(ctr);
