@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
 body {
-    background-color: mediumspringgreen;
+    background-color: beige;
 }
 
 * {
@@ -47,14 +47,22 @@ body {
 .wa {
     font-size: 24px;
     text-decoration: none;
+    letter-spacing: 2px;
 }
 
 button {
     font-size: 20px;
+    text-decoration: underline;
 }
 
 .img1 {
     width: 52%;
+    float: left;
+    margin: 1px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 1px;
 }
 
 .img2 {
@@ -63,5 +71,5 @@ button {
 
 h1,
 h2 {
-    text-shadow: 1px black;
+    text-shadow: 0.5px 0.5px black;
 }
